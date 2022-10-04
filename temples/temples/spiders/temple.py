@@ -1,8 +1,8 @@
 import scrapy
 
 
-class ConstructionSpider(scrapy.Spider):
-    name = 'construction'
+class TempleSpider(scrapy.Spider):
+    name = 'temple'
     allowed_domains = ['churchofjesuschristtemples.org']
     start_urls = ['http://churchofjesuschristtemples.org/status/']
 
